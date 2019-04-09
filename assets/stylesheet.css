@@ -20,8 +20,15 @@
         z-index: +2;
     }
     
+    .nav-link {
+        color: black;
+    }
+    
+    .nav-item:hover {
+        color: #ffffff
+    }
+    
     .nav-link:hover {
-        background: url();
         color: #ffffff
     }
     
@@ -151,10 +158,15 @@
         width: 100%;
         background: url("eq.gif");
         font-size: 1.5rem;
-        color: dimgray;
+        color: black;
     }
     
     #main {
         display: flex;
         justify-content: space-around;
+    }
+    
+    .fab {
+        color: black;
+        font-family: 'Bangers', cursive;
     }
